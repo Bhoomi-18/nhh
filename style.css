@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* F87060
+CDD7D6
+B3A394
+FFFFFF */
+.navbar{
+    height: 60px;
+    background-color: #102542;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+}
+.nav-home{
+    font-size: 1.5rem;
+}
+.nav-doc{
+    font-size: 1.5rem;
+}
+.logo{
+    font-size: 2rem;
+}
+.nav-symp{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    background-color: #F87060;
+    height: 40px;
+    border-radius: 15px;
+}
+.nav-signin{
+    display: flex;
+    font-size: 1.5rem;
+}
+.user_icon{
+    margin-left: 15px;
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+}
+.search{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+button{
+    background-color: #F87060;
+    border: none;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.hero{
+    background-image: url(hero_section.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about{
+    padding: 1rem;
+    border-radius: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-text{
+    width: 80vmin;
+    font-size: 1.5rem;
+}
+.about-pic{
+    height: 25vmin;
+    width: 25vmin;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 2rem;
+    background-image: url();
+    background-size: contain;
+}
+.about:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out 0s;
+    background-color: #005E7C;
+    color: white;
+}
+footer{
+    text-align: center;
+    color:white;
+    background-color: black;
+}
