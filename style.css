@@ -62,8 +62,6 @@ FFFFFF */
     align-items: center;
     font-size: 1.2rem;
     color: #0f1111;
-}
-button{
     background-color: #F87060;
     border: none;
     border-radius: 15px;
@@ -114,6 +112,34 @@ button:hover{
     background-color: #005E7C;
     color: white;
 }
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    align-items: center;
+}
+
+.box {
+    height: 100px;
+    width: 30%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.sections{
+    border: none;
+    font-size: large;
+    margin-left: 110px;
+    margin-top: 35px;
+    font-size: 30px;
+}
+
+
 footer{
     text-align: center;
     color:white;
