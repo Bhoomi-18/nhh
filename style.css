@@ -138,7 +138,9 @@ button:hover{
     margin-top: 35px;
     font-size: 30px;
 }
-
+a{
+    text-decoration: none;
+}
 
 footer{
     text-align: center;

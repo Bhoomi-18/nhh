@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    height: 60px;
+    background-color: #102542;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+}
+.search-box{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    background-color: #F87060;
+    height: 40px;
+    border-radius: 15px;
+}
+.search{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    background-color: #F87060;
+    border: none;
+    border-radius: 15px;
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+}
+tr{
+    width: 3rem;
+    border: 1px solid black;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+button{
+    background-color: #F87060;
+    border-radius: 15px;
+}
+.table{
+    margin-top: 2rem;
+}
+.cl1{
+    border: 1px solid black;
+    width: 3rem;
+}
+.cl2{
+    border: 1px solid black;
+    width: 25rem;
+}
+.cl3{
+    border: 1px solid black;
+    width: 3rem;
+}
+.cl4{
+    border: 1px solid black;
+    width: 3rem;
+}
+.cl5{
+    border: 1px solid black;
+    width: 15rem;
+}
+.cl6{
+    border: 1px solid black;
+    width: 12rem;
+}
+.cl7{
+    border: 1px solid black;
+    width: 10rem;
+}
+.cl8{
+    border: 1px solid black;
+    width: 9rem;
+}
