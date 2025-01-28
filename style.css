@@ -145,5 +145,6 @@ a{
 footer{
     text-align: center;
     color:white;
-    background-color: black;
+    background-color: #102542;
+    height: 60px;
 }
